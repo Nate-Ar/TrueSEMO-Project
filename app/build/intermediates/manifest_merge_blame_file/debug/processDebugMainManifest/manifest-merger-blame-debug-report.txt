@@ -1,0 +1,494 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="True.semo.Mantis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+13-->[androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+13-->[androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+14-->[androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
+15-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:23:22-74
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->[com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:5-98
+18-->[com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+19
+20    <permission
+20-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+21        android:name="True.semo.Mantis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="True.semo.Mantis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:5:5-26:19
+27        android:allowBackup="true"
+27-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:6:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:7:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:8:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:9:9-43
+34        android:label="@string/app_name"
+34-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:10:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:11:9-54
+36        android:supportsRtl="true"
+36-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:12:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.TrueSemo" >
+38-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:13:9-46
+39        <activity
+39-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:15:9-25:20
+40            android:name="True.semo.Mantis.MainActivity"
+40-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:16:13-41
+41            android:exported="true"
+41-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:17:13-36
+42            android:label="@string/app_name"
+42-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:18:13-45
+43            android:theme="@style/Theme.TrueSemo" >
+43-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:19:13-50
+44            <intent-filter>
+44-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:20:13-24:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:21:17-69
+45-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:21:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:23:17-77
+47-->/Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:23:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:29:9-46:20
+51            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+51-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:30:13-80
+52            android:excludeFromRecents="true"
+52-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:31:13-46
+53            android:exported="true"
+53-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:32:13-36
+54            android:launchMode="singleTask"
+54-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:33:13-44
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:34:13-72
+56            <intent-filter>
+56-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:35:13-45:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:17-69
+57-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:17-76
+59-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:17-78
+60-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:27-75
+61
+62                <data
+62-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:41:17-44:51
+63                    android:host="firebase.auth"
+63-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:42:21-49
+64                    android:path="/"
+64-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:43:21-37
+65                    android:scheme="genericidp" />
+65-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:44:21-48
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:47:9-64:20
+69            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+69-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:48:13-79
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:49:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:50:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:51:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:52:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:53:13-63:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:17-69
+75-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:17-76
+77-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:17-78
+78-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:41:17-44:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:42:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:43:21-37
+83                    android:scheme="recaptcha" />
+83-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:44:21-48
+84            </intent-filter>
+85        </activity>
+86
+87        <service
+87-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:66:9-72:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:67:13-84
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:68:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:69:13-71:85
+92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+92-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:70:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:71:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+95                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+95-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:57:13-59:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+101-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:58:17-122
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:59:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:60:13-62:85
+104                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+104-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:61:17-119
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:62:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+107-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+110-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+113                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+113-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+116                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+116-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+119                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+119-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+121        </service>
+122        <service
+122-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:24:9-32:19
+123            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+123-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:25:13-94
+124            android:enabled="true"
+124-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:26:13-35
+125            android:exported="false" >
+125-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:27:13-37
+126            <meta-data
+126-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:29:13-31:104
+127                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+127-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:30:17-76
+128                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+128-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:31:17-101
+129        </service>
+130
+131        <activity
+131-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:34:9-41:20
+132            android:name="androidx.credentials.playservices.HiddenActivity"
+132-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:35:13-76
+133            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+133-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:36:13-87
+134            android:enabled="true"
+134-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:37:13-35
+135            android:exported="false"
+135-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:38:13-37
+136            android:fitsSystemWindows="true"
+136-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:39:13-45
+137            android:theme="@style/Theme.Hidden" >
+137-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:40:13-48
+138        </activity>
+139        <activity
+139-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:42:9-49:20
+140            android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+140-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:43:13-97
+141            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+141-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:44:13-87
+142            android:enabled="true"
+142-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:45:13-35
+143            android:exported="false"
+143-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:46:13-37
+144            android:fitsSystemWindows="true"
+144-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:47:13-45
+145            android:theme="@style/Theme.Hidden" >
+145-->[androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:48:13-48
+146        </activity>
+147
+148        <receiver
+148-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:29:9-40:20
+149            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+149-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:30:13-78
+150            android:exported="true"
+150-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:31:13-36
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:32:13-73
+152            <intent-filter>
+152-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:33:13-35:29
+153                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+153-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:34:17-81
+153-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:34:25-78
+154            </intent-filter>
+155
+156            <meta-data
+156-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:37:13-39:40
+157                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+157-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:38:17-92
+158                android:value="true" />
+158-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:39:17-37
+159        </receiver>
+160        <!--
+161             FirebaseMessagingService performs security checks at runtime,
+162             but set to not exported to explicitly avoid allowing another app to call it.
+163        -->
+164        <service
+164-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:46:9-53:19
+165            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+165-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:47:13-82
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:48:13-43
+167            android:exported="false" >
+167-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:49:13-37
+168            <intent-filter android:priority="-500" >
+168-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:50:13-52:29
+168-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:50:28-51
+169                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+169-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:51:17-78
+169-->[com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:51:25-75
+170            </intent-filter>
+171        </service>
+172
+173        <provider
+173-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+174            android:name="com.google.firebase.provider.FirebaseInitProvider"
+174-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+175            android:authorities="True.semo.Mantis.firebaseinitprovider"
+175-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+177            android:exported="false"
+177-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+178            android:initOrder="100" />
+178-->[com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+179
+180        <activity
+180-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:23:9-27:75
+181            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+181-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:24:13-93
+182            android:excludeFromRecents="true"
+182-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:25:13-46
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:26:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:27:13-72
+185        <!--
+186            Service handling Google Sign-In user revocation. For apps that do not integrate with
+187            Google Sign-In, this service will never be started.
+188        -->
+189        <service
+189-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:33:9-37:51
+190            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+190-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:34:13-89
+191            android:exported="true"
+191-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:35:13-36
+192            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+192-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:36:13-107
+193            android:visibleToInstantApps="true" />
+193-->[com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:37:13-48
+194
+195        <activity
+195-->[androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+196            android:name="androidx.activity.ComponentActivity"
+196-->[androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+197            android:exported="true" />
+197-->[androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+198        <activity
+198-->[androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+199            android:name="androidx.compose.ui.tooling.PreviewActivity"
+199-->[androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+200            android:exported="true" />
+200-->[androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+201
+202        <provider
+202-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+203            android:name="androidx.startup.InitializationProvider"
+203-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+204            android:authorities="True.semo.Mantis.androidx-startup"
+204-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+205            android:exported="false" >
+205-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+206            <meta-data
+206-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+207                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+207-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+208                android:value="androidx.startup" />
+208-->[androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+209            <meta-data
+209-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+210                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+210-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+211                android:value="androidx.startup" />
+211-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+212            <meta-data
+212-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+213                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+213-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+214                android:value="androidx.startup" />
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+215        </provider>
+216
+217        <activity
+217-->[com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+218            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+218-->[com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+221
+222        <meta-data
+222-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+223            android:name="com.google.android.gms.version"
+223-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+224            android:value="@integer/google_play_services_version" />
+224-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+225
+226        <service
+226-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+227            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+227-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+228            android:exported="false" >
+228-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+229            <meta-data
+229-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+230                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+230-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+231                android:value="cct" />
+231-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+232        </service>
+233        <service
+233-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+234-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+235            android:exported="false"
+235-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+236            android:permission="android.permission.BIND_JOB_SERVICE" >
+236-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+237        </service>
+238
+239        <receiver
+239-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+240            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+240-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+241            android:exported="false" />
+241-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+242        <receiver
+242-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+243-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+244            android:directBootAware="false"
+244-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+245            android:enabled="true"
+245-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+246            android:exported="true"
+246-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+252                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+255                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+258                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+259            </intent-filter>
+260        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+261        <activity
+261-->[com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+262            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+262-->[com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
+263            android:exported="false"
+263-->[com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+264            android:stateNotNeeded="true"
+264-->[com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+265            android:theme="@style/Theme.PlayCore.Transparent" />
+265-->[com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+266    </application>
+267
+268</manifest>

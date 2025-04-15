@@ -1,0 +1,913 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a1c12cd0c8a77aa39f0157db05c6f4b3/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/20dd35651d5be3a19513ddca3cede6c7/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/040902cff9331308e3621510fc4f5450/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4aa3d9c55c635687e2c953f5fde7a422/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c913d7a68e281ca531406935114dbc42/transformed/navigation-compose-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:17:1-52:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/542d24327033f11a6942f9d6758a8898/transformed/googleid-1.1.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0382166db6a96be6402d8b387005780f/transformed/credentials-1.5.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ff3bc3f458b194c5e50b88a99a066ace/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5f116e00563fb8c0f1a04b6b17a4fcac/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/177ac675411810d10332bb5400b397d7/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f0e8030502834a5709578c824e2c90e/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8411902309a8df39291d41e6da3e0258/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/781cdf0caf99ae6594e0564bd5637a33/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7f59b01bab3fbacce71ef214a29f11f1/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/43d78a4530f78d3b54caedb4756982f3/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6d84250f2375509d029a3e4237f4c9ad/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/168c77cdd1e2981d3381f752553eb2ea/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/338b53cf2277ee95e61b4cfa63928fbc/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5836e4c5056d084647475d3ec607378/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d891f90a8d43d29333ba423921111e38/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/62e40ee87f60c4cc732c8f13afc3f33d/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7a36d7bd21e546a59cacb5335fca064f/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/368e49c1692c92e4eb7ecd1a80dc7377/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7836ad95083542aa313c8c7f7a0656b1/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da0e2f1a38694cc793eb46f3c2e986b4/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/999435343308be035f28239c5f6b68b7/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e36d19c08128018125a070e7596103da/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e8156f967d3a6b6dfbaa9bff9d517366/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/37bb2a95ce05181cad37d6ac148b7849/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8c8473475b64e4db91dafa7b5c735ee6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bc41b2fae3e435eecd83dacf59424e81/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ad4952ee3c05aceb2a24e8e52f513e59/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f33913132a4ffe0677bf182bbdc817e6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da76dd2964b540d76a20bd0be6867f18/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5b78655643f3c19fa203be281ddb3052/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/692892dea6260348224f2174f2fc73a6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/98c5b3cbfc6939c12f68498724577777/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6245f43c533b600bb24d3d07b751347d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7e4250f19e00a1af45392fdb1c61a15f/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ddbd992e2b6791cb9bec1d39f76d409f/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/798b3c1061d96f204be2b9af9361ab62/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e63879e7ab0c22fa5fbffb2e73333027/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/eeac4b8aa1811df03310f60ad6575598/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d7f71eaae536c7a46d4dc8ce6f1f7b4d/transformed/play-services-auth-blockstore-16.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5e97f3ef4697bf83dafc1d7e4aee865e/transformed/play-services-fido-21.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] /Users/nathanarter/.gradle/caches/8.10.2/transforms/57897f9ebb83a4ad6873ad016ad64a95/transformed/play-services-identity-credentials-16.0.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da9fa4570b1bf784267713edf6b5b4c8/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f7e8d21114258995c8304c1e4aac68a/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f1b33b54b2f916e27ed345f449c433e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d86cbd7ee5b39fd2c595ec2a9482f0ad/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b70de197779839f3205f1019d4f64517/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b91c3b4712edc9f920b483d9d9a72f9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6e87ad910abad979232c78facb5f33a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5c577d264fbe839213420438d156aff4/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/192eadff716adbd94e857332c9319688/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d115b426ff4116e0436f24fe8eabcb08/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a8e9641de70dab9e9d0285d77756076c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6a10e931b8155326830f4bcad749267b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/67d00ffcfad09560427a4ddbad4fa2e0/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8d52b1e5fa322a7981cbeec79a8e43a9/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a3ce2252805e967b6a6e788c0cae2f43/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d016c9cf273a08e5204106e317c8e411/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a302dead2011910de9a1f123c39984c3/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/576a07ed2749050bf7d9fa5ccf6cff1a/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/521d46bb765d5de83d366f05630f937f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/30817e2bcc03bfe7ca83a845d0890abc/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5ac2f803ddffba7c761bc3f67bb54ae/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b92ec9b8acb13f22da3349e54a2e7c/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0dc2bd92a2a383e60796ac323187689d/transformed/activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/59a1e31e120c9eaaf7c8cd302c2a325f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4e4cc81d6db3db6659723d85e88d12cc/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f122f89e96240bf064cf472197712e57/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/65abfed5e3a9fc91f028bd49ac7f1daa/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0b5f383f3adb36d0f2cc8bc198338591/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4c44208fb25cf7e731e105b08fef873f/transformed/transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/36a548168ff6ccb9aafc7f96e11868d1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e59b2fbcdeeac7dce0fe47812e0bc382/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0300fc420499ad0d101563b036d4399c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b0dd4d7b1919d5d82ee3a717c8c86e67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4e01aa7f6c01a55f9b03ddeee52a2f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/587d5d4a6164c43cd4f5f2a4d09edf62/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0660e1c0679be44051e28a408bc672a8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6c01a6f51d6455e34b68c63a81001899/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4ac6180f380c1f844db9dac28c9a0c03/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:23:5-50:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:23:5-50:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ff3bc3f458b194c5e50b88a99a066ace/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ff3bc3f458b194c5e50b88a99a066ace/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5f116e00563fb8c0f1a04b6b17a4fcac/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5f116e00563fb8c0f1a04b6b17a4fcac/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f0e8030502834a5709578c824e2c90e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f0e8030502834a5709578c824e2c90e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8411902309a8df39291d41e6da3e0258/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8411902309a8df39291d41e6da3e0258/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bc41b2fae3e435eecd83dacf59424e81/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bc41b2fae3e435eecd83dacf59424e81/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d7f71eaae536c7a46d4dc8ce6f1f7b4d/transformed/play-services-auth-blockstore-16.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d7f71eaae536c7a46d4dc8ce6f1f7b4d/transformed/play-services-auth-blockstore-16.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5e97f3ef4697bf83dafc1d7e4aee865e/transformed/play-services-fido-21.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5e97f3ef4697bf83dafc1d7e4aee865e/transformed/play-services-fido-21.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/576a07ed2749050bf7d9fa5ccf6cff1a/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/576a07ed2749050bf7d9fa5ccf6cff1a/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/521d46bb765d5de83d366f05630f937f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/521d46bb765d5de83d366f05630f937f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0300fc420499ad0d101563b036d4399c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0300fc420499ad0d101563b036d4399c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:13:9-46
+	android:dataExtractionRules
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:7:9-65
+activity#True.semo.Mantis.MainActivity
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:19:13-50
+	android:name
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a1c12cd0c8a77aa39f0157db05c6f4b3/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a1c12cd0c8a77aa39f0157db05c6f4b3/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/20dd35651d5be3a19513ddca3cede6c7/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/20dd35651d5be3a19513ddca3cede6c7/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/040902cff9331308e3621510fc4f5450/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/040902cff9331308e3621510fc4f5450/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4aa3d9c55c635687e2c953f5fde7a422/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4aa3d9c55c635687e2c953f5fde7a422/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c913d7a68e281ca531406935114dbc42/transformed/navigation-compose-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c913d7a68e281ca531406935114dbc42/transformed/navigation-compose-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/542d24327033f11a6942f9d6758a8898/transformed/googleid-1.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/542d24327033f11a6942f9d6758a8898/transformed/googleid-1.1.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0382166db6a96be6402d8b387005780f/transformed/credentials-1.5.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0382166db6a96be6402d8b387005780f/transformed/credentials-1.5.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ff3bc3f458b194c5e50b88a99a066ace/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ff3bc3f458b194c5e50b88a99a066ace/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5f116e00563fb8c0f1a04b6b17a4fcac/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5f116e00563fb8c0f1a04b6b17a4fcac/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/177ac675411810d10332bb5400b397d7/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/177ac675411810d10332bb5400b397d7/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f0e8030502834a5709578c824e2c90e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f0e8030502834a5709578c824e2c90e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8411902309a8df39291d41e6da3e0258/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8411902309a8df39291d41e6da3e0258/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/781cdf0caf99ae6594e0564bd5637a33/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/781cdf0caf99ae6594e0564bd5637a33/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7f59b01bab3fbacce71ef214a29f11f1/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7f59b01bab3fbacce71ef214a29f11f1/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/43d78a4530f78d3b54caedb4756982f3/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/43d78a4530f78d3b54caedb4756982f3/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6d84250f2375509d029a3e4237f4c9ad/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6d84250f2375509d029a3e4237f4c9ad/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/168c77cdd1e2981d3381f752553eb2ea/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/168c77cdd1e2981d3381f752553eb2ea/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/338b53cf2277ee95e61b4cfa63928fbc/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/338b53cf2277ee95e61b4cfa63928fbc/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5836e4c5056d084647475d3ec607378/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5836e4c5056d084647475d3ec607378/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d891f90a8d43d29333ba423921111e38/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d891f90a8d43d29333ba423921111e38/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/62e40ee87f60c4cc732c8f13afc3f33d/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/62e40ee87f60c4cc732c8f13afc3f33d/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7a36d7bd21e546a59cacb5335fca064f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7a36d7bd21e546a59cacb5335fca064f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/368e49c1692c92e4eb7ecd1a80dc7377/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/368e49c1692c92e4eb7ecd1a80dc7377/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7836ad95083542aa313c8c7f7a0656b1/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7836ad95083542aa313c8c7f7a0656b1/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da0e2f1a38694cc793eb46f3c2e986b4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da0e2f1a38694cc793eb46f3c2e986b4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/999435343308be035f28239c5f6b68b7/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/999435343308be035f28239c5f6b68b7/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e36d19c08128018125a070e7596103da/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e36d19c08128018125a070e7596103da/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e8156f967d3a6b6dfbaa9bff9d517366/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e8156f967d3a6b6dfbaa9bff9d517366/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/37bb2a95ce05181cad37d6ac148b7849/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/37bb2a95ce05181cad37d6ac148b7849/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8c8473475b64e4db91dafa7b5c735ee6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8c8473475b64e4db91dafa7b5c735ee6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bc41b2fae3e435eecd83dacf59424e81/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bc41b2fae3e435eecd83dacf59424e81/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ad4952ee3c05aceb2a24e8e52f513e59/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ad4952ee3c05aceb2a24e8e52f513e59/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f33913132a4ffe0677bf182bbdc817e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f33913132a4ffe0677bf182bbdc817e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da76dd2964b540d76a20bd0be6867f18/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da76dd2964b540d76a20bd0be6867f18/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5b78655643f3c19fa203be281ddb3052/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5b78655643f3c19fa203be281ddb3052/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/692892dea6260348224f2174f2fc73a6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/692892dea6260348224f2174f2fc73a6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/98c5b3cbfc6939c12f68498724577777/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/98c5b3cbfc6939c12f68498724577777/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6245f43c533b600bb24d3d07b751347d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6245f43c533b600bb24d3d07b751347d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7e4250f19e00a1af45392fdb1c61a15f/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/7e4250f19e00a1af45392fdb1c61a15f/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ddbd992e2b6791cb9bec1d39f76d409f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/ddbd992e2b6791cb9bec1d39f76d409f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/798b3c1061d96f204be2b9af9361ab62/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/798b3c1061d96f204be2b9af9361ab62/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e63879e7ab0c22fa5fbffb2e73333027/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e63879e7ab0c22fa5fbffb2e73333027/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/eeac4b8aa1811df03310f60ad6575598/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/eeac4b8aa1811df03310f60ad6575598/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d7f71eaae536c7a46d4dc8ce6f1f7b4d/transformed/play-services-auth-blockstore-16.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d7f71eaae536c7a46d4dc8ce6f1f7b4d/transformed/play-services-auth-blockstore-16.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5e97f3ef4697bf83dafc1d7e4aee865e/transformed/play-services-fido-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5e97f3ef4697bf83dafc1d7e4aee865e/transformed/play-services-fido-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] /Users/nathanarter/.gradle/caches/8.10.2/transforms/57897f9ebb83a4ad6873ad016ad64a95/transformed/play-services-identity-credentials-16.0.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] /Users/nathanarter/.gradle/caches/8.10.2/transforms/57897f9ebb83a4ad6873ad016ad64a95/transformed/play-services-identity-credentials-16.0.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da9fa4570b1bf784267713edf6b5b4c8/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/nathanarter/.gradle/caches/8.10.2/transforms/da9fa4570b1bf784267713edf6b5b4c8/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f7e8d21114258995c8304c1e4aac68a/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/2f7e8d21114258995c8304c1e4aac68a/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f1b33b54b2f916e27ed345f449c433e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f1b33b54b2f916e27ed345f449c433e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d86cbd7ee5b39fd2c595ec2a9482f0ad/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d86cbd7ee5b39fd2c595ec2a9482f0ad/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b70de197779839f3205f1019d4f64517/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b70de197779839f3205f1019d4f64517/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b91c3b4712edc9f920b483d9d9a72f9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b91c3b4712edc9f920b483d9d9a72f9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6e87ad910abad979232c78facb5f33a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6e87ad910abad979232c78facb5f33a5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5c577d264fbe839213420438d156aff4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/5c577d264fbe839213420438d156aff4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/192eadff716adbd94e857332c9319688/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/192eadff716adbd94e857332c9319688/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d115b426ff4116e0436f24fe8eabcb08/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d115b426ff4116e0436f24fe8eabcb08/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a8e9641de70dab9e9d0285d77756076c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a8e9641de70dab9e9d0285d77756076c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6a10e931b8155326830f4bcad749267b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6a10e931b8155326830f4bcad749267b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/67d00ffcfad09560427a4ddbad4fa2e0/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/67d00ffcfad09560427a4ddbad4fa2e0/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8d52b1e5fa322a7981cbeec79a8e43a9/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8d52b1e5fa322a7981cbeec79a8e43a9/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a3ce2252805e967b6a6e788c0cae2f43/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a3ce2252805e967b6a6e788c0cae2f43/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d016c9cf273a08e5204106e317c8e411/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d016c9cf273a08e5204106e317c8e411/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a302dead2011910de9a1f123c39984c3/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a302dead2011910de9a1f123c39984c3/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/576a07ed2749050bf7d9fa5ccf6cff1a/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/576a07ed2749050bf7d9fa5ccf6cff1a/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/521d46bb765d5de83d366f05630f937f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/521d46bb765d5de83d366f05630f937f/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/30817e2bcc03bfe7ca83a845d0890abc/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/30817e2bcc03bfe7ca83a845d0890abc/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5ac2f803ddffba7c761bc3f67bb54ae/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a5ac2f803ddffba7c761bc3f67bb54ae/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b92ec9b8acb13f22da3349e54a2e7c/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b92ec9b8acb13f22da3349e54a2e7c/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0dc2bd92a2a383e60796ac323187689d/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0dc2bd92a2a383e60796ac323187689d/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/59a1e31e120c9eaaf7c8cd302c2a325f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/59a1e31e120c9eaaf7c8cd302c2a325f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4e4cc81d6db3db6659723d85e88d12cc/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4e4cc81d6db3db6659723d85e88d12cc/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f122f89e96240bf064cf472197712e57/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/f122f89e96240bf064cf472197712e57/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/65abfed5e3a9fc91f028bd49ac7f1daa/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/65abfed5e3a9fc91f028bd49ac7f1daa/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0b5f383f3adb36d0f2cc8bc198338591/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0b5f383f3adb36d0f2cc8bc198338591/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4c44208fb25cf7e731e105b08fef873f/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4c44208fb25cf7e731e105b08fef873f/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/36a548168ff6ccb9aafc7f96e11868d1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/36a548168ff6ccb9aafc7f96e11868d1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e59b2fbcdeeac7dce0fe47812e0bc382/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e59b2fbcdeeac7dce0fe47812e0bc382/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0300fc420499ad0d101563b036d4399c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0300fc420499ad0d101563b036d4399c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b0dd4d7b1919d5d82ee3a717c8c86e67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b0dd4d7b1919d5d82ee3a717c8c86e67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4e01aa7f6c01a55f9b03ddeee52a2f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4e01aa7f6c01a55f9b03ddeee52a2f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/587d5d4a6164c43cd4f5f2a4d09edf62/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/587d5d4a6164c43cd4f5f2a4d09edf62/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0660e1c0679be44051e28a408bc672a8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/0660e1c0679be44051e28a408bc672a8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6c01a6f51d6455e34b68c63a81001899/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/6c01a6f51d6455e34b68c63a81001899/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4ac6180f380c1f844db9dac28c9a0c03/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/4ac6180f380c1f844db9dac28c9a0c03/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nathanarter/Desktop/CS499/TrueSemo/TrueSemo2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/3dff0288c2b4f320e77869ad606f8141/transformed/firebase-auth-23.2.0/AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:35:13-76
+activity#androidx.credentials.playservices.IdentityCredentialApiHiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:42:9-49:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:47:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:44:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:48:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0-rc01] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cc2583465c62f9fe464e9f0b7f0cafec/transformed/credentials-play-services-auth-1.5.0-rc01/AndroidManifest.xml:43:13-97
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/1c6adc903c930eaca49e962e90602e7e/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a144cac83d231c06345904367b5313e4/transformed/firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/958cc17005e236234ea083ac62515a56/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:47:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:50:13-52:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:50:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:51:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:51:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/80b1b6c0bfc16854afbc0b8f45fb9235/transformed/firebase-messaging-24.1.1/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c0614f29984742d973ba3baaf395c713/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcf1e4483da6b72f3d854283007a040d/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e68b1c9285d1f9ae60a4171571eb870a/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcd07a1dd9559554d16bbb9b69bc4cfc/transformed/play-services-auth-21.1.1/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/c69f523566b6f121d550e3abb335d2fb/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/73cb17ebb0f4a699712ca666c3afd337/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/nathanarter/.gradle/caches/8.10.2/transforms/e4b8cf750e142cdddc0b92e1f58a9a79/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nathanarter/.gradle/caches/8.10.2/transforms/77189a3dd8aaf02bd799faaf3e7cbfee/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/a239eea0237407486ec1b36616d8f4be/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8527d5cefd02f86c013a0e30b02d566f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/66b9c1a7c6270b4a178cc09725a83662/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#True.semo.Mantis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#True.semo.Mantis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/cba844f8f6498310ede1bab0443fb500/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/be0d9d26bbd3f0b8bd42510b195b5752/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/8e1f0b2fcde6018a0183e47c1df857f0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/b5d6e51efdfee828791cb921b8bb958b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/nathanarter/.gradle/caches/8.10.2/transforms/d35d8f25bd779117b7a5b9c55b0b91c9/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nathanarter/.gradle/caches/8.10.2/transforms/bcbe516981ec7b076107ed6bb947e77e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/nathanarter/.gradle/caches/8.10.2/transforms/78ee1d89821fcbb7868cb077a47a0c9b/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
